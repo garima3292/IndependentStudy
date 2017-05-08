@@ -1,0 +1,15 @@
+prefix = "."
+stop-words = "stopwords.txt"
+
+dataset = "aristo-mini"
+corpus = "line.toml"
+index = "idx"
+
+[[analyzers]]
+method = "ngram-word"
+ngram = 1
+filter = "default-chain"
+
+[query-runner]
+query-path = "aristo-mini/AI2-Elementary-NDMC-Feb2016-Dev-Queries.txt"
+query-id-start = 1
