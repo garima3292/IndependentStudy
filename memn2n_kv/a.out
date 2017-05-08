@@ -1,0 +1,9 @@
+282594 tuples in knowledge base
+Vocab size : 8530
+Training Size 388
+Validation Size 44
+Testing Size 339
+trainA.shape
+(388, 8531)
+Train Labels.shape
+(388,)

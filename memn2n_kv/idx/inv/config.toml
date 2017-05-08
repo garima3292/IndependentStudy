@@ -1,0 +1,9 @@
+index = "idx"
+corpus = "line.toml"
+stop-words = "stopwords.txt"
+dataset = "aristo_kb"
+prefix = "."
+[[analyzers]]
+	filter = "default-chain"
+	ngram = 1
+	method = "ngram-word"
